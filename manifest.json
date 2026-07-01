@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Jira AI Assistant",
+  "version": "1.0",
+  "description": "An AI assistant for our internal tools.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Click to open AI"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}
