@@ -5,7 +5,7 @@
         // MULTI-ANGLE KEY RADAR: Finds Jira key anywhere on screen or in URL parameter matrices
         function findJiraKey() {
             let pathMatch = window.location.pathname.match(/browse\/([A-Z0-9\-]+)/i);
-            if (pathMatch) return pathMatch[1];
+            if (pathMatch) return pathMatch[1];   
 
             let urlParams = new URLSearchParams(window.location.search);
             let selectedIssue = urlParams.get('selectedIssue');
