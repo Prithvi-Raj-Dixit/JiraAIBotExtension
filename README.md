@@ -26,9 +26,10 @@ Because this extension hooks into Chrome's experimental native on-device AI syst
 2. Search for **"Prompt API for Gemini Nano"** and switch the setting to **Enabled**.
 <img width="1899" height="802" alt="image" src="https://github.com/user-attachments/assets/68d86d2a-cdf0-4375-990a-881cfd9f68d8" />
 
-3. Search for **"Optimization Guide On Device Model"** and change its dropdown to **Enabled BypassPerfRequirement** *(This forces Chrome to run the model even if your machine hits temporary performance fluctuations)*.
+3. Switch the **On-device AI** toggle to **ON**.
+<img width="3771" height="1487" alt="image" src="https://github.com/user-attachments/assets/ca9adef0-6343-4738-a775-391a3a24460f" />
 
-4. Click the blue **Relaunch** button at the bottom right to restart Chrome completely.
+4. Restart Google Chrome.
 
 ### Step 2: Trigger the Gemini Nano Download
 1. After the restart, open a new tab and navigate to: `chrome://components`
@@ -38,11 +39,12 @@ Because this extension hooks into Chrome's experimental native on-device AI syst
 <img width="1188" height="578" alt="image" src="https://github.com/user-attachments/assets/b60d7798-7c13-4aa4-9c3d-0008aa0bce4b" />
 
 3. Click the **Check for update** button. 
+
 4. Chrome will begin downloading the model weights. The status will transition to *Downloading*. 
 
 > ⚠️ **Important Note:** The Gemini Nano model is roughly **4 GB**. Ensure you remain connected to a stable network until the component status changes cleanly to **Up-to-date**.
 
 ### Step 3: Hard-Drive Verification (Optional)
-If your browser tools indicate an error state, you can physically verify the download progress on your local storage array. Press `Win + R`, paste the path structure below, and press Enter:
+If your browser tools indicate an error state, you can physically verify the download progress on your local storage array. Press `Win + R`, paste the path structure below, and press Enter, check weights.bin size should be ~4GB 
 ```text
 %LOCALAPPDATA%\Google\Chrome\User Data\OptGuideOnDeviceModel
