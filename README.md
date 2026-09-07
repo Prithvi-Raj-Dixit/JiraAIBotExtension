@@ -21,6 +21,8 @@ Because this extension hooks into Chrome's experimental native on-device AI syst
 
 ### Step 1: Enable Experimental Browser Flags
 1. Open a new tab in Google Chrome and navigate to: `chrome://flags`
+<img width="600" height="283" alt="image" src="https://github.com/user-attachments/assets/3746aec8-4cfc-438e-b62b-8e78c7cce19e" />
+
 2. Search for **"Prompt API for Gemini Nano"** and switch the setting to **Enabled**.
 3. Search for **"Optimization Guide On Device Model"** and change its dropdown to **Enabled BypassPerfRequirement** *(This forces Chrome to run the model even if your machine hits temporary performance fluctuations)*.
 4. Click the blue **Relaunch** button at the bottom right to restart Chrome completely.
