@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Jira AI Assistant",
   "version": "1.0",
-  "description": "An AI assistant for our internal tools.",
+  "description": "An AI assistant for our internal tools.",    
   "permissions": [
     "activeTab",
     "scripting",
