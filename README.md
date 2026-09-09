@@ -1,6 +1,6 @@
 # Jira Bug Analyzer 🤖
 
-An enterprise-grade, privacy-first Google Chrome Extension designed for QA and Firmware Engineers. This tool leverages **Gemini Nano**—Google’s built-in, local Large Language Model—to analyze complex hardware/software Jira tickets directly inside your browser. 
+An enterprise-grade, privacy-first Google Chrome Extension designed for QA and Firmware Engineers. This tool leverages **Gemini Nano**—Google’s built-in, local Large Language Model—to analyze complex hardware/software Jira tickets directly inside your browser.   
 
 Instead of copy-pasting sensitive internal bugs into cloud-based public AI tools, this extension fetches raw ticket data from the background Jira REST API and calculates a tactical, forward-looking QA testing roadmap entirely on your physical machine.
 
