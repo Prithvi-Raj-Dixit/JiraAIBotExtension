@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     let currentPageText = "";
-       
+         
     // UI Elements    
     const chatBox = document.getElementById('chat-box');
     const syncBtn = document.getElementById('sync-btn');
